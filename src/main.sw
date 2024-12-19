@@ -12,7 +12,6 @@ impl MyContract for Contract {
 
     fn test_function(_a: u256, _b: u256) -> u256 {
         let (xR, xR_tmp) = weird(_a, _b);
-        revert(255); // Force logs print when using forc test
         
 
         0x00u256
